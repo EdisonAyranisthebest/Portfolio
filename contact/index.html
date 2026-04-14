@@ -7,18 +7,8 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <nav>
-        <a href="../index.html">Home</a>
-        <a href="../projects/index.html">Projects</a>
-        <a href="../contact/index.html" class="current">Contact</a>
-        <a href="../cv/index.html">CV</a>
-        <a href="https://github.com/EdisonAyranisthebest" target="_blank">GitHub</a>
-    </nav>
     <h1>Contact</h1>
-    <form action="mailto:eayran@ucsd.edu" method="POST" enctype="text/plain">
-        <label>Email
-            <input type="email" name="email" value="example@email.com">
-        </label>
+    <form action="mailto:eayran@ucsd.edu" method="GET">
         <label>Subject
             <input type="text" name="subject" value="Hello!">
         </label>
@@ -27,5 +17,6 @@
         </label>
         <button>Send</button>
     </form>
+    <script src="../global.js" type="module"></script>
 </body>
 </html>
