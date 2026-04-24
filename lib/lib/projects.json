@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Spatial-Aware CNN — Soccer Shot Prediction",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built a CNN in PyTorch to predict shot outcomes using spatial features from match data."
+  },
+  {
+    "title": "NBA LSTM — Player Performance Forecasting",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Developed an LSTM model to forecast NBA player performance across a season."
+  },
+  {
+    "title": "Expected Goals Model",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built an xG model for soccer using logistic regression and spatial shot data."
+  },
+  {
+    "title": "Neural Collaborative Filtering",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Implemented a neural collaborative filtering model for recommendation systems using PyTorch."
+  },
+  {
+    "title": "DataMind — AI Data Analysis App",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Full-stack AI-powered data analysis web app using React, PapaParse, and the Claude API, deployed to Vercel."
+  },
+  {
+    "title": "Linköping FC Post-Match Analytics",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Developed structured post-match analysis report templates and analyzed opponent data for professional women's football."
+  },
+  {
+    "title": "Academy Award Genre Bias Analysis",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Analyzed genre bias in Academy Award outcomes using statistical methods and EDA for Math 189."
+  },
+  {
+    "title": "GroceryDB Pricing Visualization",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built a connected dot plot visualizing grocery pricing by NOVA class and store using D3.js."
+  },
+  {
+    "title": "Triton Soccer Shot Prediction Model",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Predictive model for UCSD Men's Soccer game outcomes using match data and machine learning."
+  },
+  {
+    "title": "Sliding Window Protocol (CSE 123)",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Implemented a sliding window protocol with selective retransmission in C for computer networks."
+  },
+  {
+    "title": "Portfolio Website",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Personal portfolio site built with HTML, CSS, and JavaScript, hosted on GitHub Pages."
+  },
+  {
+    "title": "PyTorch Open Source Contributions",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Open source contributor to PyTorch at Meta, improving library functionality and documentation."
+  }
+]

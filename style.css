@@ -125,3 +125,22 @@ form button {
     font-size: 80%;
     font-family: inherit;
 }
+
+#profile-stats dl {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5em;
+    text-align: center;
+}
+
+#profile-stats dt {
+    grid-row: 1;
+    font-weight: bold;
+    font-size: 0.85em;
+}
+
+#profile-stats dd {
+    grid-row: 2;
+    font-size: 1.5em;
+    margin: 0;
+}
