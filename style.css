@@ -221,3 +221,104 @@ form button {
   border: 1px solid oklch(80% 3% 200);
   border-radius: 0.3em;
 }
+
+/* Stats dl */
+dl.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5em;
+  text-align: center;
+  margin-block: 1em;
+}
+
+dl.stats dt {
+  grid-row: 1;
+  font-weight: bold;
+  font-size: 0.85em;
+  color: oklch(50% 10% 200);
+}
+
+dl.stats dd {
+  grid-row: 2;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+/* Tooltip */
+dl.info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.3em 1em;
+  margin: 0;
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+
+dl.info dt {
+  color: oklch(50% 10% 200);
+  font-size: 0.85em;
+}
+
+dl.info dd {
+  margin: 0;
+  font-weight: bold;
+}
+
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.tooltip {
+  position: fixed;
+  background: oklch(20% 5% 200 / 90%);
+  color: white;
+  padding: 0.8em 1em;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 12px oklch(0% 0% 0 / 30%);
+  backdrop-filter: blur(4px);
+  pointer-events: none;
+  z-index: 100;
+}
+
+/* Scatterplot */
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+  cursor: pointer;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+
+circle.selected {
+  fill: #ff6b6b;
+}
+
+.gridlines line {
+  stroke: oklch(70% 3% 200 / 30%);
+}
+
+.gridlines path {
+  display: none;
+}
+
+/* Brush selection */
+@keyframes marching-ants {
+  to { stroke-dashoffset: -8; }
+}
+
+.selection {
+  fill-opacity: 0.1;
+  stroke: black;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
+}
+
+#selection-count {
+  margin-block: 0.5em;
+  font-weight: bold;
+}
